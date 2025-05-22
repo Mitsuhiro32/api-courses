@@ -20,6 +20,7 @@ Bienvenido a la documentación de la API de Cursos. Esta API permite gestionar c
     - [Estudiantes](#estudiantes)
     - [Inscripciones](#inscripciones)
   - [Autenticación](#autenticación)
+  - [Pruebas con Postman](#pruebas-con-postman)
 
 ---
 
@@ -129,3 +130,14 @@ La API utiliza autenticación basada en tokens (Laravel Sanctum).
     ```
 
 El token debe enviarse en el header `Authorization: Bearer {token}` en las peticiones protegidas.
+
+## Pruebas con Postman
+
+Para facilitar las pruebas de la API, se incluye un archivo de colección de Postman en el repositorio: `Gestión de Cursos y Estudiantes.postman_collection.json`.
+
+1. Abre Postman y selecciona **Importar**.
+2. Elige el archivo `Gestión de Cursos y Estudiantes.postman_collection.json` ubicado en la raíz del proyecto.
+3. Actualiza las variables de entorno (por ejemplo, la URL base y el token de autenticación) según tu configuración local.
+4. Ejecuta las solicitudes incluidas para probar los diferentes endpoints de la API.
+
+Esto te permitirá validar rápidamente el funcionamiento de la API y explorar sus funcionalidades.
