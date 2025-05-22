@@ -1,10 +1,15 @@
-# API Cursos
+# API Gestión de Cursos y Estudiantes
+
+[![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)](https://laravel.com)
+
+## Acerca de
 
 Bienvenido a la documentación de la API de Cursos. Esta API permite gestionar cursos y estudiantes incluyendo operaciones para crear, leer, actualizar y eliminar.
 
 ## Tabla de Contenidos
 
-- [API Cursos](#api-cursos)
+- [API Gestión de Cursos y Estudiantes](#api-gestión-de-cursos-y-estudiantes)
+  - [Acerca de](#acerca-de)
   - [Tabla de Contenidos](#tabla-de-contenidos)
   - [Requisitos](#requisitos)
   - [Instalación](#instalación)
@@ -23,7 +28,7 @@ Bienvenido a la documentación de la API de Cursos. Esta API permite gestionar c
 - PHP >= 8.1
 - Composer
 - MySQL o PostgreSQL
-- [Opcional] Docker
+- Laravel >= 10
 
 ## Instalación
 
@@ -123,4 +128,4 @@ La API utiliza autenticación basada en tokens (Laravel Sanctum).
     POST /api/login
     ```
 
-    El token debe enviarse en el header `Authorization: Bearer {token}` en las peticiones protegidas.
+El token debe enviarse en el header `Authorization: Bearer {token}` en las peticiones protegidas.
